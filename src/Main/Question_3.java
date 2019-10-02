@@ -36,8 +36,9 @@ public class Question_3 {
 class TestClass3{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string");
         String Str = scanner.nextLine().trim();
         Question_3 question_3 = new Question_3(Str);
-        System.out.println(question_3.replacestring());
+        System.out.println("String after repacement is :"+question_3.replacestring());
     }
 }
