@@ -9,6 +9,6 @@ public class Question_8 {
         String Str = scanner.nextLine().trim();
         String Str1 = Str.toUpperCase();
         Question_7 question_7 = new Question_7(Str1);
-        System.out.println("Total weight in Upper cas is ; " + question_7.totalweight());
+        System.out.println("Total weight in Upper cas is ; " + question_7.totalweight(Str1));
     }
 }
