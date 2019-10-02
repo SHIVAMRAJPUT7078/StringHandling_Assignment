@@ -40,6 +40,5 @@ class TestClass_10 {
         String string = scanner.nextLine().trim();
         Question_10 question_10 = new Question_10(ch, string);
         System.out.println(question_10.getIndex());
-
     }
 }

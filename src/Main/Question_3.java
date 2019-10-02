@@ -16,12 +16,10 @@ public class Question_3 {
     public void setString(String string) {
         this.string = string;
     }
-    //**   WAP to accept inputString from user and replace all the vowels by *, by using String replace(char oldChar, char newChar).
     public String replacestring(){
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         char[] arr = getString().toCharArray();
         for (char c : arr) {
-            //(c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')
             if((c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')||(c=='A')||(c=='E')||(c=='I')||(c=='O')||(c=='U')){
                 sb.append('*');
             }

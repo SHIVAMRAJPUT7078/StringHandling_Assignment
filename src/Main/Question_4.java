@@ -16,9 +16,8 @@ public class Question_4 {
     public void setString(String string) {
         this.string = string;
     }
-    //**   WAP to accept inputString from user and replace all the vowels by *, by using String replace(char oldChar, char newChar).
     public String replacestringAccordingtoUccurance(){
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         char[] arr = getString().toCharArray();
         for (char c : arr) {
 

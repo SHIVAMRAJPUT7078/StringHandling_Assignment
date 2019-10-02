@@ -39,7 +39,6 @@ public class Question_11 {
         }
     }
 }
-
 class TestClass_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
