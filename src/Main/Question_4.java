@@ -22,7 +22,6 @@ public class Question_4 {
         char[] arr = getString().toCharArray();
         for (char c : arr) {
 
-            //(c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')
             if((c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')||(c=='A')||(c=='E')||(c=='I')||(c=='O')||(c=='U')){
                 int i = 1;
                 if(i%2==0){
